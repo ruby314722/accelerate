@@ -16,7 +16,11 @@
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
-
+#masthead ul li {
+  display: block;
+  float: left;
+  margin: 0 10px;
+}
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
@@ -46,4 +50,18 @@
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/*Case Studies*/
+.case-study-sidebar {
+    width: 300px;
+    float: left;
+    margin: 40px 54px 0 0;
+}
+.case-study-images {
+  width: 600px;
+  float: left;
+}
+.case-study-images img{
+  margin-bottom: 40px;
 }
