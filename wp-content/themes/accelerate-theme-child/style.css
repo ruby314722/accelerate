@@ -19,7 +19,12 @@
 #masthead ul li {
   display: block;
   float: left;
-  margin: 0 10px;
+  margin: 0 0 0 40px;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+.menu-top-nav-container {
+  border: 1px solid #45ac9d;
 }
 /*Home Page*/
 .home-page {
@@ -99,4 +104,40 @@
 }
 .case-study-images img{
   margin-bottom: 40px;
+}
+
+/*NINJA FORMS CONTACT STYLE */
+.page-id-47347 .site-content {
+  width: 650px;
+}
+.nf-field-label label {
+    font-weight: normal !important;
+    font-size: 0.9em;
+  }
+.textbox-container {
+  width: 48%;
+  float: left;
+}
+#nf-field-1-wrap {}
+.email-container {
+  width: 48%;
+  float: left;
+  margin-left: 4%
+}
+.nf-field-container {
+  clear: none !important;
+}
+#nf-field-3-wrap {
+  clear: both !important;
+}
+
+/*Submit button*/
+#nf-field-4-wrap{
+  float: right;
+}
+#nf-field-4{
+  background-color: #45ac9d;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px 100px;
 }
