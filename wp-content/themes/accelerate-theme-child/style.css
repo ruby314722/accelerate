@@ -22,6 +22,7 @@
   margin: 0 0 0 40px;
   text-transform: uppercase;
   font-size: 0.85em;
+  font-family: 'Montserrat', sans-serif;
 }
 .menu-top-nav-container {
   border: 1px solid #45ac9d;
@@ -110,34 +111,36 @@
 .page-id-47347 .site-content {
   width: 650px;
 }
-.nf-field-label label {
-    font-weight: normal !important;
-    font-size: 0.9em;
-  }
-.textbox-container {
-  width: 48%;
-  float: left;
+.
+.nf-form-title {
+  display: none;
 }
-#nf-field-1-wrap {}
-.email-container {
-  width: 48%;
-  float: left;
-  margin-left: 4%
+.nf-form-fields-required {
+	display: none;
 }
-.nf-field-container {
-  clear: none !important;
+.nf-field .nf-field-label label {
+    font-weight: normal;
+    font-size: .9em;
 }
-#nf-field-3-wrap {
-  clear: both !important;
+.nf-field-container.textbox-container.label-above,
+.nf-field-container.email-container.label-above {
+    display: block;
+    width: 49%;
+    float: left;
+    clear: initial;
 }
-
-/*Submit button*/
-#nf-field-4-wrap{
+.nf-field-container.email-container.label-above {
+  margin-left: 2%;
+}
+#nf-field-1, #nf-field-2 {
+  height: 40px;
+}
+#nf-field-4 {
   float: right;
-}
-#nf-field-4{
-  background-color: #45ac9d;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: #fff;
-  padding: 20px 100px;
+  font-size: 18px;
+  background-color: #45AC9D;
+  padding: 15px 80px;
 }
