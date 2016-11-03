@@ -68,7 +68,7 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
-
+.addthis_toolbox {display: none;}
 /*Tweets on Home Page*/
 .widget {
   padding: 0;
@@ -94,14 +94,41 @@
 	line-height: 1.5;
   margin-bottom: 0px;
 }
-span.stt-em {display: none;}
+span.stt-em {
+  display: none;
+}
 
+/*Services Icons on Home Page*/
+
+.services {
+  text-align: center;
+}
+.services h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.services-icon {
+  float: left;
+  width: 21%;
+  margin: 0 2%;
+  padding-bottom: 50px;
+}
+.services-icon img {
+  margin: 20px 0;
+  width: 100%
+}
 /*Case Studies on Home Page */
 
-.featured-work h4{
+.featured-work h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
   text-align: center;
-  margin-bottom: 50px;
-  text-transform: uppercase;
+  padding-bottom: 30px;
 }
 
 .homepage-featured-work {
@@ -319,3 +346,4 @@ input[type=submit]{
   border: none;
 
 }
+.page-id-6 .entry-meta {display: none;}

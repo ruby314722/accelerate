@@ -49,7 +49,28 @@ get_header(); ?>
 
 	</div>
 </section>
-
+<div class="clearfix"></div>
+<section class="services">
+	<div class="site-content">
+		<h4>Our Services</h4>
+	<div class="services-icon">
+		<a href="http://localhost:8888/accelerate/about/"><img src="http://localhost:8888/accelerate/wp-content/uploads/2016/10/bullseye.png" alt="Content Marketing" /></a>
+		<p><a href="http://localhost:8888/accelerate/about/">Content Strategy</a></p>
+	</div>
+	<div class="services-icon">
+		<a href="http://localhost:8888/accelerate/about/"><img src="http://localhost:8888/accelerate/wp-content/uploads/2016/10/atom-circle.png" alt="Content Marketing" /></a>
+		<p><a href="http://localhost:8888/accelerate/about/">Influencer Mapping</a></p>
+	</div>
+	<div class="services-icon">
+		<a href="http://localhost:8888/accelerate/about/"><img src="http://localhost:8888/accelerate/wp-content/uploads/2016/10/thumbs-up.png" alt="Content Marketing" /></a>
+		<p><a href="http://localhost:8888/accelerate/about/">Social Media Strategy</a></p>
+	</div>
+	<div class="services-icon">
+		<a href="http://localhost:8888/accelerate/about/"><img src="http://localhost:8888/accelerate/wp-content/uploads/2016/10/magic-wand.png" alt="Content Marketing" /></a>
+		<p><a href="http://localhost:8888/accelerate/about/">Design &amp; Development</a></p>
+	</div>
+</div>
+</section>
 <section class="recent-posts">
 	<div class="site-content">
 		<div class="blog-post">
@@ -65,6 +86,7 @@ get_header(); ?>
 	</div>
 </section>
 
+
 <section class="recent-posts">
 	<div class="site-content">
 		<div class="blog-post">
@@ -77,6 +99,8 @@ get_header(); ?>
 	</div>
 </div>
 </section>
+
+
 <div class="clearfix"></div>
 <?php endif; ?>
 <!-- .home-page -->
